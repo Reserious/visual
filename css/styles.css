@@ -751,6 +751,7 @@ textarea {
 /* columns
  * -------------------------------------- */
 .column {
+    text-align: center;
     -ms-flex: 1 1 0%;
     -webkit-box-flex: 1;
     flex: 1 1 0%;
@@ -1156,6 +1157,7 @@ textarea {
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 600px) {
     .row {
+        padding-top: 25px;
         width: 100%;
         padding-left: 6vw;
         padding-right: 6vw;
@@ -3528,6 +3530,7 @@ input::-moz-focus-inner {
     position: relative;
 }
 
+
 .s-hero__bg {
     background-image: url(../images/intro.jpg);
     background-repeat: no-repeat;
@@ -3939,7 +3942,7 @@ html.no-csstransitions .s-hero__content {
 @media screen and (max-width: 900px) {
     .s-hero__bg {
         display: block;
-        width: 70vw;
+        width: 40vh;
         height: 50vh;
         top: 12rem;
         right: 0;
@@ -3986,10 +3989,10 @@ html.no-csstransitions .s-hero__content {
 
 @media screen and (max-width: 600px) {
     .s-hero__content h1 {
-        font-size: 28vw;
+        font-size: 18vw;
     }
     .s-hero__content-about {
-        padding-right: 15vw;
+/*        padding-right: 15vw;*/
     }
     .s-hero__content-about br {
         display: none;
@@ -4009,7 +4012,7 @@ html.no-csstransitions .s-hero__content {
     }
     .s-hero__content-about {
         font-size: 2.6rem;
-        padding-right: 4rem;
+/*        padding-right: 4rem;*/
         padding-left: .5em;
     }
 }
@@ -4029,7 +4032,8 @@ html.no-csstransitions .s-hero__content {
     }
     .s-hero__content-about {
         font-size: 2.2rem;
-        padding-right: 6rem;
+/*        padding-right: 6rem;*/
+margin-bottom: 110px;
     }
     .s-hero__video {
         right: auto;
@@ -4288,6 +4292,7 @@ html.no-csstransitions .s-hero__content {
 }
 
 .intensiv {
+    margin-top: 0;
     font-size: 30px;
     font-weight: bold;
     font-style: italic;
@@ -4303,8 +4308,20 @@ html.no-csstransitions .s-hero__content {
 }
 
 .folio-item {
+
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #c4b7cb;
+    border: #8a2be200;
+    border-style: groove;
+    border-radius: 20px;
     position: relative;
     overflow: hidden;
+}
+}
+
+.folio-item__thumb-link {
+    margin-bottom: 20px;
 }
 
 .folio-item__caption {
