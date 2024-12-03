@@ -762,6 +762,45 @@ textarea {
     padding: 0;
 }
 
+.table-container {
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.qa-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.qa-table thead {
+  background-color: #4CAF50;
+  color: #fff;
+}
+
+.qa-table th, .qa-table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.qa-table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.qa-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.qa-table th {
+  font-size: 16px;
+}
+
+.qa-table td {
+  font-size: 14px;
+}
+
 /* flex row containers utility classes
  */
 .row.row-wrap {
@@ -1998,11 +2037,11 @@ th {
 
 th:first-child, 
 td:first-child {
-    padding-left: 0;
+/*    padding-left: 0;*/
 }
 
 th:last-child, td:last-child {
-    padding-right: 0;
+/*    padding-right: 0;*/
 }
 
 .table-responsive {
