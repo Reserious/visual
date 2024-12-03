@@ -1699,7 +1699,7 @@ h2, .h2, h3, .h3, h4, .h4 {
     margin-bottom: var(--vspace-0_5);
 }
 
-h5, .h5, h6, .h6 {
+h5, .h5, h6 {
     margin-top: var(--vspace-1_5);
     margin-bottom: var(--vspace-0_5);
 }
@@ -1738,11 +1738,15 @@ h5, .h5 {
 }
 
 h6, .h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
     font-size: var(--text-sm);
     font-weight: 600;
     line-height: var(--vspace-0_75);
     text-transform: uppercase;
-    letter-spacing: .22em;
+
+/*    letter-spacing: .22em;*/
 }
 
 .lead, .attention-getter {
