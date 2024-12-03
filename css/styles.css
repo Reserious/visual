@@ -2995,6 +2995,7 @@ input::-moz-focus-inner {
 }
 
 .section-title h3 {
+    text-align: center;
     z-index: 2;
     font-weight: 500;
     color: hsl(0deg 0% 0%);
@@ -3012,7 +3013,7 @@ input::-moz-focus-inner {
     margin-top: 0;
 }
 
-.item-title {
+.item-title2 {
 background-color: #00000052;
     font-size: 2rem;
     padding: 5px;
@@ -3028,6 +3029,25 @@ background-color: #00000052;
     /* font-size: var(--text-lg); */
     /* line-height: var(--vspace-1_25); */
     /* margin-top: 0; */
+ 
+}
+
+.item-title {
+/*background-color: #00000052; */
+/*    font-size: 2rem;*/
+    /* padding: 5px; */
+    /* padding-right: 6rem; */
+    margin-bottom: 0;
+    margin-top: 25px;
+    /* border-radius: 20px; */
+    font-size: var(--text-md);
+    line-height: var(--vspace-1);
+    text-align: center;
+    font-family: var(--font-2);
+    font-weight: 500;
+    font-size: var(--text-lg);
+    line-height: var(--vspace-1_25);
+    margin-top: 0;
  
 }
 
@@ -3586,7 +3606,7 @@ background-color: #00000052;
 
 
 .s-hero__bg {
-    background-image: url(../images/intro.JPG);
+    background-image: url(../images/intro.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -3595,6 +3615,9 @@ background-color: #00000052;
     right: 0;
     bottom: 0;
     left: 36.5vw;
+}
+.garanty {
+    border-radius: 20px;
 }
 
 .s-hero__bg::after {
