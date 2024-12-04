@@ -764,14 +764,20 @@ textarea {
 
 .table-container {
   padding: 20px;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+/*  background-color: #ffffff;*/
+/*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+/*  border-radius: 20px;*/
+  background-image: url(../images/questions.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .qa-table {
   width: 100%;
   border-collapse: collapse;
+  color: white;
+  font-weight: bolder;
 }
 
 .qa-table thead {
@@ -786,7 +792,7 @@ textarea {
 }
 
 .qa-table tbody tr:nth-child(odd) {
-  background-color: #f9f9f9;
+/*  background-color: #f9f9f9;*/
 }
 
 .qa-table tbody tr:hover {
@@ -4381,7 +4387,7 @@ background-color: #00000052;
 
 .intensiv {
     margin-top: 0;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
