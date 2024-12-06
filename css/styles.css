@@ -2587,6 +2587,10 @@ input::-moz-focus-inner {
     padding: 0;
 }
 
+.lead {
+    margin-top: 20px;
+}
+
 
 
 /* =================================================================== 
@@ -4116,7 +4120,7 @@ background-color: #00000052;
         /* margin-bottom: 110px; */
         margin-top: 20px;
         border-radius: 20px;
-        padding-top: 5px;
+        padding: 10px;
     }
 }
 
@@ -4140,7 +4144,7 @@ background-color: #00000052;
         /* margin-bottom: 110px; */
         margin-top: 20px;
         border-radius: 20px;
-        padding-top: 5px;
+        padding: 10px;
     }
     .s-hero__video {
         right: auto;
