@@ -2616,6 +2616,14 @@ input::-moz-focus-inner {
     margin: 0;
 }
 
+.visual-text {
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: emoji;
+    font-style: italic;
+    color: white;
+}
+
 .lining dt+dt:before, .lining dd+dt:before {
     content: "\A";
     white-space: pre;
@@ -3629,6 +3637,9 @@ background-color: #00000052;
 .garanty {
     border-radius: 20px;
 }
+.garanty-text {
+    color: white;
+}
 
 .s-hero__bg::after {
     display: block;
@@ -4103,8 +4114,9 @@ background-color: #00000052;
         font-size: 2rem;
         /* padding-right: 6rem; */
         /* margin-bottom: 110px; */
-        margin-top: 25px;
+        margin-top: 20px;
         border-radius: 20px;
+        padding-top: 5px;
     }
 }
 
@@ -4126,8 +4138,9 @@ background-color: #00000052;
         font-size: 2rem;
         /* padding-right: 6rem; */
         /* margin-bottom: 110px; */
-        margin-top: 25px;
+        margin-top: 20px;
         border-radius: 20px;
+        padding-top: 5px;
     }
     .s-hero__video {
         right: auto;
@@ -4431,7 +4444,17 @@ font-size: 15px;
     position: relative;
     overflow: hidden;
 }
+
+.folio-item2 {
+
+    padding: 10px;
+    margin-bottom: 10px;
+/*    background-color: #c4b7cb;*/
+   
+    position: relative;
+    overflow: hidden;
 }
+
 
 .folio-item__thumb-link {
     margin-bottom: 20px;
