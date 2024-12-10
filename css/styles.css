@@ -773,6 +773,19 @@ textarea {
     background-size: cover;
 }
 
+.bonus-text {
+    font-size: 40px;
+    font-family: serif;
+}
+.bonus-subtitle {
+    font-size: 20px;
+}
+
+.learn {
+    font-size: 27px;
+    font-family: serif;
+}
+
 .qa-table {
   width: 100%;
   border-collapse: collapse;
@@ -1750,7 +1763,7 @@ h5, .h5 {
 h6, .h6 {
     margin-top: 10px;
     margin-bottom: 10px;
-    color: black;
+    color: white;
     font-size: var(--text-sm);
     font-weight: 600;
     line-height: var(--vspace-0_75);
@@ -1936,6 +1949,16 @@ hr.fancy {
 hr.fancy::before {
     content: "*****";
     letter-spacing: .3em;
+}
+
+.item-subtitle {
+font-size: 18px;
+    margin: 0 0 20px;
+    text-align: left;
+    padding: 14px;
+    border: 1px white;
+    border-style: solid;
+    border-radius: 29px;
 }
 
 
@@ -2319,9 +2342,13 @@ select {
     position: relative;
     padding: 0;
 }
-.hrn { color: var(--color-1);
+.hrn { color: white;
     font-weight: bolder;
     border:black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   font-family: serif;
+   font-size: 26px;
  }
  .grn {
     width: 100%;
@@ -2629,8 +2656,8 @@ input::-moz-focus-inner {
 .visual-text {
     font-size: 30px;
     margin-top: 20px;
-    font-family: emoji;
-    font-style: italic;
+    font-family: serif;
+/*    font-style: italic;*/
     color: white;
 }
 
@@ -3044,7 +3071,7 @@ input::-moz-focus-inner {
 .item-title2 {
 background-color: #00000052;
     font-size: 2rem;
-    padding: 5px;
+    padding: 19px;
     /* padding-right: 6rem; */
     /* margin-bottom: 110px; */
     /* margin-top: 25px; */
@@ -3058,6 +3085,11 @@ background-color: #00000052;
     /* line-height: var(--vspace-1_25); */
     /* margin-top: 0; */
  
+}
+.why {
+    font-family: serif;
+    margin: 0;
+    font-size: 38px;
 }
 
 .item-title {
@@ -3081,10 +3113,20 @@ background-color: #00000052;
 
 .item-title b {
     font-family: ui-monospace;
-    font-size: 30px;
+    font-size: 38px;
 }
 .arrow-right {
     width: 50px;
+}
+.intensiv2 {
+        text-align: left;
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+.intensiv2 b {
+    font-weight: bolder;
+    font-size: 24px;
 }
 
 
